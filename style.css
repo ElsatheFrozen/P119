@@ -1,0 +1,57 @@
+body{
+    background-color: aquamarine;
+}
+#your_sketch{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+#confidence{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+h1{
+    background-color:papayawhip;
+}
+#show_sketch{
+    float: right;
+}
+#score{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+#timer{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    float: right;
+    margin-right: 20px;
+}
+
+canvas
+{
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px orange;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
+
+#clear
+{
+    background-color: red;
+}
